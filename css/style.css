@@ -1,0 +1,424 @@
+body{
+    color: #555555;
+    font-family: "Open Sans";
+}
+
+/*=========================*/
+/*Top Header Style Sheet*/
+/*=========================*/
+.top-header{
+    width: 100%;
+    display: inline-block;
+    background: #ffffff;
+    padding: 10px 0;
+}
+.top-header .top-header-content{
+    width: 100%;
+    display: inline-block;
+}
+.top-header .top-header-content p{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: #555555;
+    font-family: "Open Sans";
+}
+
+/*=========================*/
+/* Website Name Style Sheet*/
+/*=========================*/
+.header{
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0;
+    background: #8a26ba;
+}
+.header .navbar-default{
+    background: transparent;
+    border: 0;
+    margin: 0 0 5px 0;
+}
+.header .navbar-header .navbar-brand{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 32px;
+}
+
+/*=========================*/
+/* Main Nav Style Sheet*/
+/*=========================*/
+.mainMenu{
+    float: right;
+}
+.header .navbar-default .navbar-nav > li > a{
+    color: #ffffff;
+    font-family: "Open Sans";
+    text-shadow: none;
+    font-size: 16px;
+}
+.header .navbar-default .navbar-nav > li > a:active,
+.header .navbar-default .navbar-nav > li > a:focus,
+.header .navbar-default .navbar-nav > li > a:hover{
+    text-decoration: none;
+    color: #dddddd;
+}
+
+/*=========================*/
+/* Banner Style Sheet*/
+/*=========================*/
+.banner{
+    width: 100%;
+    display: inline-block;
+    margin-top: -7px;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+}
+.search-form{
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.50);
+    padding: 30px 0;
+}
+.search-form .form-group{
+    margin: 0;
+}
+.search-form .search-label-right{
+    text-align: right;
+    margin-top: 7px;
+}
+.search-form .search-label-center{
+    text-align: center;
+    margin-top: 7px;
+}
+.search-form .form-group label{
+    color: #ffffff;
+    font-family: "Open Sans";
+}
+.search-form .form-group .form-control{
+    width: 100%;
+}
+
+/*=========================*/
+/* Slogan Style Sheet*/
+/*=========================*/
+.slogan{
+    width: 100%;
+    display: inline-block;
+    background: #ededed;
+    padding: 20px 0;
+}
+.slogan h3{
+    margin: 0;
+    padding: 5px 0;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+.slogan p{
+    margin: 0;
+    padding: 5px 0;
+    font-family: "Open Sans";
+    font-weight: 500;
+}
+
+/*===============================*/
+/* Column Content Style Sheet*/
+/*===============================*/
+.column-blog{
+    width: 100%;
+    display: inline-block;
+    background: #ffffff;
+    padding: 30px 0;
+}
+.column-blog-content{
+    width: 100%;
+    display: inline-block;
+}
+.column-blog-content h2{
+    margin: 0;
+    padding: 10px 0;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+.column-blog-content p{
+    margin: 0;
+    padding: 5px 0 10px 0;
+    font-family: "Open Sans";
+    font-weight: 300;
+    text-align: justify;
+}
+.column-blog-content a{
+    background: none repeat scroll 0 0 #e7e7e7;
+    color: #555555;
+    display: inline-block;
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 12px 20px;
+    text-align: center;
+}
+.column-blog-content a:hover,
+.column-blog-content a:active,
+.column-blog-content a:focus{
+    background: none repeat scroll 0 0 #d7d7d7;
+    text-decoration: none;
+}
+
+/*=========================*/
+/* Feature Style Sheet*/
+/*=========================*/
+.feature{
+    width: 100%;
+    display: inline-block;
+    background: #ededed;
+    padding: 40px 0;
+}
+.feature-content{
+    width: 100%;
+    display: inline-block;
+    background: #ffffff;
+}
+.feature-content .feature-description{
+    width: 90%;
+    padding: 0 10% 0 0;
+    display: inline-block;
+}
+.feature-content .feature-description .feature-tablet{
+    display: none;
+}
+.feature-content .feature-description h4{
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+
+/*=========================*/
+/* Search Options Style Sheet*/
+/*=========================*/
+.search-options{
+    width: 100%;
+    display: inline-block;
+    background: #ffffff;
+    padding: 5px 0;
+}
+.search-options .form-group{
+    margin: 0 5px;
+    width: 12%;
+    float: left;
+}
+.search-options .form-group .form-control{
+    width: 100%;
+}
+
+
+
+/*==============================*/
+/* Search Content Style Sheet*/
+/*==============================*/
+.search-result{
+    width: 100%;
+    display: inline-block;
+    background: #ededed;
+    padding: 20px 0;
+}
+.search-result h2{
+    font-family: "Open Sans";
+    font-size: 23px;
+    margin: 5px 0 0;
+    padding: 0;
+}
+
+/*==============================*/
+/* Search Results Style Sheet*/
+/*==============================*/
+.results{
+     width: 100%;
+     display: inline-block;
+     background: #ededed;
+     padding: 20px 0;
+    margin-top: -6px;
+}
+.result-content{
+    width: 100%;
+    display: inline-block;
+    background: #ffffff;
+    padding: 15px 0;
+}
+.result-section:first-child{
+    border-bottom: 1px solid #e6e6e6;
+}
+.result-section{
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 0 0 10px;
+    width: 100%;
+}
+.result-section h3{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+}
+.result-section h3 span{
+    font-size: 14px;
+}
+.result-section .price{
+    text-align: right;
+}
+.result-content-description{
+    width: 100%;
+    display: inline-block;
+}
+
+.result-content-description p{
+    margin: 0;
+    padding: 5px 0 10px 0;
+}
+
+.table-icon{
+    margin: 20px 0;
+    max-width: 100%;
+    width: 100%;
+}
+.table-icon td.td-img{
+    width: 50px;
+    display: inline-block;
+}
+.table-icon td.td-text{
+    width: 50px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: bottom;
+}
+.price-large-result{
+    margin: 0;
+    padding: 0 0 30px 0;
+    text-align: right;
+}
+.result-block{
+    border-radius: 0;
+    float: right;
+    margin: 5px;
+    padding: 12px 20px;
+    text-align: center;
+    width: 75%;
+}
+.result-contact{
+    width: 100%;
+    display: inline-block;
+    background: #59417d;
+    padding: 20px 0;
+    margin-top: -6px;
+}
+.result-contact h4{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+
+/*=========================*/
+/* Footer Style Sheet*/
+/*=========================*/
+.footer{
+    width: 100%;
+    display: inline-block;
+    padding: 30px 0;
+    background: #4c4c4c;
+}
+.footer-content{
+    width: 100%;
+    display: inline-block;
+}
+.footer-content h4{
+    color: #ffffff;
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+.footer-content ul.footer-nav{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-content ul.footer-nav li{
+    margin: 0;
+    padding: 0;
+}
+.footer-content ul.footer-nav li a{
+    margin: 0;
+    padding: 5px 0;
+    color: #ffffff;
+}
+.footer-content ul.footer-nav li a:hover{
+    text-decoration: none;
+    color: #bababa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============================*/
+/* Default Custom Style Sheet*/
+/*=============================*/
+.text-italic{
+    font-style: italic;
+}
+.btn-green-light{
+    background-color: #34c525;
+    border-color: #31b823;
+    color: #fff;
+}
+.btn-green-light:hover,
+.btn-green-light:active,
+.btn-green-light:focus{
+    background-color: #31b823;
+    border-color: #4cae4c;
+    color: #fff;
+}
+.btn-green{
+    background-color: #054e1a;
+    border-color: #043f15;
+    color: #fff;
+}
+.btn-green:hover,
+.btn-green:active,
+.btn-green:focus{
+    background-color: #043f15;
+    border-color: #043f15;
+    color: #fff;
+}
+.normal-padding{
+    padding: 20px;
+}
+.color-green{
+    color: #054e1a;
+}
+.line{
+    height: 1px;
+    background: #054e1a;
+    margin: 15px 0;
+}
+.line-full{
+    width: 100%;
+}
+.noPadding{
+    padding: 0;
+}
+.imgAuto{
+    width: 100%;
+}

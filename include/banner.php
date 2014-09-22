@@ -1,0 +1,31 @@
+
+<div class="banner">
+    <img src="<?php echo base_url; ?>img/banner.jpg" alt="Marcus Griles"/>
+
+
+
+    <div class="search-form">
+        <div class="container">
+                <form class="form-inline" role="form">
+                    <div class="form-group col-sm-3 search-label-right">
+                        <label>Search for my new home</label>
+                    </div>
+                    <div class="form-group col-sm-2">
+                            <input class="form-control" type="text" placeholder="For Sell">
+                    </div>
+                    <div class="form-group col-sm-2">
+                            <input class="form-control" type="text" placeholder="Within 5 Miles">
+                    </div>
+                    <div class="form-group col-sm-1 search-label-center">
+                        <label>of</label>
+                    </div>
+                    <div class="form-group col-sm-2">
+                        <input class="form-control" type="text" placeholder="Location or Postcode">
+                    </div>
+                    <div class="form-group col-sm-2">
+                        <button type="submit" class="btn btn-green-light">Search</button>
+                    </div>
+                </form>
+        </div>
+    </div>
+</div>

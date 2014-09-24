@@ -27,6 +27,12 @@ body{
 /*=========================*/
 /* Website Name Style Sheet*/
 /*=========================*/
+.header-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
 .header{
     width: 100%;
     display: inline-block;

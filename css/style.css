@@ -27,6 +27,12 @@ body{
 /*=========================*/
 /* Website Name Style Sheet*/
 /*=========================*/
+.header-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
 .header{
     width: 100%;
     display: inline-block;
@@ -139,6 +145,15 @@ body{
     width: 100%;
     display: inline-block;
 }
+.column-sidebar-content{
+    width: 100%;
+    display: inline-block;
+    padding: 5px;
+    background: #ffffff;
+}
+.column-sidebar-content img{
+    width: 100%;
+}
 .column-blog-content h2{
     margin: 0;
     padding: 10px 0;
@@ -151,6 +166,12 @@ body{
     font-family: "Open Sans";
     font-weight: 300;
     text-align: justify;
+}
+.column-blog-content ul{
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    margin: 10px 0;
 }
 .column-blog-content a{
     background: none repeat scroll 0 0 #e7e7e7;
@@ -204,10 +225,25 @@ body{
     background: #ffffff;
     padding: 5px 0;
 }
-.search-options .form-group{
-    margin: 0 5px;
-    width: 12%;
+.search-options .filter-mobile{
+    display: none;
+}
+.search-options .filter-mobile .form-group{
+    margin: 1%;
+    width: 48%;
     float: left;
+}
+.search-options .filter-large .form-group{
+    margin: 0 5px;
+    width: 10%;
+    float: left;
+}
+.search-options .filter-large .form-group label{
+    width: 100%;
+    font-size: 13px;
+}
+.search-options .filter-large .form-group button{
+    margin-top: 23px;
 }
 .search-options .form-group .form-control{
     width: 100%;
@@ -278,6 +314,26 @@ body{
     padding: 5px 0 10px 0;
 }
 
+
+
+.icon-absolute{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+}
+.icon-absolute li{
+    display: inline;
+    padding-right: 30px ;
+    position: relative;
+}
+.icon-absolute li span{
+    bottom: -13px;
+    position: absolute;
+    right: 13px;
+}
+
+
 .table-icon{
     margin: 20px 0;
     max-width: 100%;
@@ -319,6 +375,161 @@ body{
     color: #ffffff;
     font-size: 14px;
 }
+
+
+/*=========================*/
+/* Result(Property) details Style Sheet*/
+/*=========================*/
+.result-details{
+    width: 100%;
+    display: inline-block;
+    padding: 30px 0;
+    background: #ededed;
+    margin-top: -6px;
+}
+.result-details-content{
+    width: 100%;
+    display: inline-block;
+    background: #ffffff;
+    padding-bottom: 30px;
+}
+.result-details-content .side-bar{
+    width: 100%;
+    display: inline-block;
+}
+.result-details-content .details-content-section:first-child{
+    border-bottom: 1px solid #e6e6e6;
+}
+.result-details-content .details-content-section{
+    width: 100%;
+    display: inline-block;
+    padding: 0 0 10px 0;
+}
+.result-details-content .details-content-section p{
+    margin: 0;
+    padding: 10px 0;
+}
+.result-details-content .details-content-section h3{
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+.modal-trigger-margin{
+    margin-top: 20px!important;
+}
+/*=========================*/
+/* Slide Show Style Sheet*/
+/*=========================*/
+.slide-show{
+    width: 100%;
+    display: inline-block;
+    margin: 15px 0;
+}
+.slide-show #carousel .slides li{
+    opacity: 0.7;
+}
+.slide-show #carousel .slides li:hover,
+.slide-show #carousel .slides li:focus,
+.slide-show #carousel .slides li:active,
+.slide-show #carousel .slides li.flex-active-slide{
+    opacity: 1;
+}
+
+
+
+/*=========================*/
+/* About Style Sheet*/
+/*=========================*/
+.about{
+    width: 100%;
+    display: inline-block;
+    background: #ededed;
+    padding: 30px 0;
+}
+.about-description{
+    width: 100%;
+    display: inline-block;
+    background: #ffffff;
+    padding: 20px;
+}
+.profile-content{
+    width: 100%;
+    display: inline-block;
+    padding: 40px 0 0 0;
+}
+.icon-large,
+.icon-black{
+    wdith: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.icon-large i{
+    font-size: 50px;
+    padding: 18px;
+}
+.icon-black i{
+    background: none repeat scroll 0 0 #555555;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 18px;
+}
+.profile-content h1{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+    text-align: center;
+}
+.profile-content .team-profile{
+    width: 100%;
+    display: inline-block;
+}
+.profile-content .team-profile{
+    width: 20%;
+    float: left;
+    display: inline-block;
+    font-family: "Open Sans";
+    text-align: center;
+    padding-top: 50px;
+}
+.profile-content .team-profile img{
+    max-width: 100px;
+    border-radius: 50%;
+}
+.profile-content .team-profile h2{
+    font-family: "Open Sans";
+}
+.profile-content .team-profile p{
+    font-family: "Open Sans";
+}
+/*=========================*/
+/* Contact Style Sheet*/
+/*=========================*/
+.contact{
+    width: 100%;
+    display: inline-block;
+    padding: 30px 0;
+    background: #ffffff;
+}
+.contact-content{
+    width: 100%;
+    display: inline-block;
+}
+.contact-content h1{
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    font-family: "Open Sans";
+}
+.contact-content .contact-form{
+    width: 100%;
+    display: inline-block;
+    padding: 30px 0;
+}
+
+
+
+
 
 
 /*=========================*/
@@ -402,8 +613,24 @@ body{
     border-color: #043f15;
     color: #fff;
 }
+.btn-normal{
+    background-color: #e7e7e7;
+    border-color: #c8c8c8;
+    color: #555;
+    font-size: 15px;
+    border-radius: 0;
+}
+.btn-normal:hover,
+.btn-normal:active,
+.btn-normal:focus{
+    background-color: #d4d4d4;
+    border-color: #c8c8c8;
+}
 .normal-padding{
     padding: 20px;
+}
+.normal-margin{
+    margin: 20px;
 }
 .color-green{
     color: #054e1a;
@@ -421,4 +648,32 @@ body{
 }
 .imgAuto{
     width: 100%;
+}
+.modal-dismis{
+    background: none repeat scroll 0 0 #000!important;
+    border: 1px solid #fff!important;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 25px;
+    height: 30px;
+    opacity: 0.7;
+    position: absolute;
+    right: -15px;
+    text-align: center;
+    top: -15px;
+    width: 30px;
+    z-index: 9999;
+}
+.modal-dismis span{
+    margin-top: -2px;
+    display: block;
+}
+.modal-dismis:hover,
+.modal-dismis:active,
+.modal-dismis:focus{
+    opacity: 1;
+    color: #ffffff!important;
+}
+.input-theme{
+    background: #e8e8e8;
 }

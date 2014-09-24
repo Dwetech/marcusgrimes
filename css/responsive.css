@@ -45,9 +45,20 @@
     /*=========================*/
     /* Search Options Style Sheet*/
     /*=========================*/
-    .search-options .form-group label{
+    .search-options .filter-large .form-group{
+        margin: 0 5px;
+        width: 11%;
+        float: left;
+    }
+    .search-options .filter-large .form-group label{
         font-size: 12px;
         font-weight: 300;
+    }
+    /*==============================*/
+    /* Search Content Style Sheet*/
+    /*==============================*/
+    .search-result h2{
+        text-align: center;
     }
     /*==============================*/
     /* Search Results Style Sheet*/
@@ -63,6 +74,9 @@
         padding: 12px 20px;
         text-align: center;
         width: auto;
+    }
+    .result-contact h4{
+        font-size: 11px;
     }
 
 }
@@ -81,6 +95,7 @@
         display: inline-block;
         float: left;
         font-size: 28px;
+        margin-top: -6px;
     }
     /*=========================*/
     /* Main Nav Style Sheet*/
@@ -117,6 +132,7 @@
     /*=========================*/
     .banner{
         height: 400px;
+        overflow: hidden;
     }
     .banner img{
         width: auto;
@@ -178,6 +194,21 @@
         font-size: 12px!important;
         width: 49%;
     }
+    /*=========================*/
+    /* Search Content Style Sheet*/
+    /*=========================*/
+    .sort-by-large{
+        display: none;
+    }
+    /*=========================*/
+    /* Search Options Style Sheet*/
+    /*=========================*/
+    .search-options .filter-mobile{
+        display: block;
+    }
+    .search-options .filter-large{
+        display: none;
+    }
     /*==============================*/
     /* Search Results Style Sheet*/
     /*==============================*/
@@ -212,11 +243,31 @@
         margin: auto;
         float: none;
     }
+    .result-contact h4{
+        font-size: 22px;
+    }
     .result-contact .contact-number{
         text-align: center;
     }
     .result-contact .email{
         display: none;
+    }
+
+    /*=========================*/
+    /* Team Style Sheet*/
+    /*=========================*/
+
+    .profile-content .team-profile{
+        width: 100%;
+        float: left;
+        display: inline-block;
+        font-family: "Open Sans";
+        text-align: center;
+        padding-top: 50px;
+    }
+    .profile-content .team-profile img{
+        max-width: 200px;
+        border-radius: 50%;
     }
     /*=========================*/
     /* Footer Style Sheet*/
@@ -230,5 +281,47 @@
     }
     .footer-content ul.footer-nav li{
         text-align: center;
+    }
+}
+
+
+@media (max-width: 480px){
+    /*=========================*/
+    /* Website Name Style Sheet*/
+    /*=========================*/
+    .header .navbar-header .navbar-brand{
+        display: inline-block;
+        float: left;
+        font-size: 22px;
+        margin-top: -6px;
+    }
+    /*==============================*/
+    /* Search Results Style Sheet*/
+    /*==============================*/
+    .result-block {
+        border-radius: 0;
+        float: left;
+        font-size: 11px;
+        margin: 5px;
+        padding: 7px 0;
+        text-align: center;
+        width: 100px;
+    }
+    .result-contact h4{
+        font-size: 12px;
+    }
+
+
+    .icon-absolute li{
+        padding-right: 25px;
+    }
+    .icon-absolute li span{
+        right: 10px;
+    }
+    .modal-trigger-margin{
+        font-size: 12px;
+    }
+    #slider{
+        display: none;
     }
 }

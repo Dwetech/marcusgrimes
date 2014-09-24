@@ -4,7 +4,7 @@
             <h2>Your search results: 32 Properties</h2>
         </div>
         <div class="col-sm-4">
-            <form role="form" class="form-inline pull-right">
+            <form role="form" class="form-inline pull-right sort-by-large">
                 <div class="form-group">
                     <label for="distance">Sort By</label>
                     <select class="form-control" id="distance">

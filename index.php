@@ -20,6 +20,17 @@
 
 
 
-</body>
 <?php include('include/footer_resources.php'); ?>
+<script type="text/javascript">
+    // Can also be used with $(document).ready()
+    $(window).load(function() {
+        $('.flexslider').flexslider({
+            animation: "slide",
+            controlNav: false,
+            slideshow : true,
+            animationLoop: true
+        });
+    });
+</script>
+</body>
 </html>

@@ -54,14 +54,13 @@
                                     class="glyphicon glyphicon-map-marker pull-left"></i> View on map</a>
                             <a class="btn btn-default btn-lg btn-block modal-trigger-margin" href="#"><i
                                     class="glyphicon glyphicon-home pull-left"></i> View schools and area info</a>
-                            <a class="btn btn-normal btn-lg modal-trigger-margin" href="#">Request Viewing</a>
+                            <a class="btn btn-normal btn-lg modal-trigger-margin" data-toggle="modal" data-target="#my-request-view">Request Viewing</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-8">
                     <div class="col-md-12 noPadding">
                         <div class="slide-show">
-
                             <div id="slider" class="flexslider">
                                 <ul class="slides">
                                     <li>
@@ -106,7 +105,6 @@
                                     </li>
                                 </ul>
                             </div>
-
                         </div>
                     </div>
                     <div class="col-md-12 noPadding">
@@ -158,6 +156,7 @@
 
 
 
+<?php include('include/request-modal.php'); ?>
 
 
 <div class="modal fade" id="my-map" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

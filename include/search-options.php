@@ -4,7 +4,7 @@
         <div class="container-fluid">
 
             <div class="link-buttons">
-                <button class="btn btn-default result-block filter-trigger">Filter</button>
+                <button class="btn btn-default result-block filter-trigger">Filter <i class="glyphicon"></i></button>
                 <button class="btn btn-default result-block sort-trigger">Sort By</button>
             </div>
 

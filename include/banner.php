@@ -1,7 +1,22 @@
 
 <div class="banner">
-    <img src="<?php echo base_url; ?>img/banner.jpg" alt="Marcus Griles"/>
-
+<!--    <img src="--><?php //echo base_url; ?><!--img/banner.jpg" alt="Marcus Griles"/>-->
+    <div class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="img/banner.jpg" />
+            </li>
+            <li>
+                <img src="img/banner.jpg" />
+            </li>
+            <li>
+                <img src="img/banner.jpg" />
+            </li>
+            <li>
+                <img src="img/banner.jpg" />
+            </li>
+        </ul>
+    </div>
 
 
     <div class="search-form">
@@ -19,8 +34,7 @@
                     <div class="form-group col-sm-2">
                         <select class="form-control" name="" id="">
                             <option value="">Within 5 Miles</option>
-                            <option value="">Within 10 Miles</option>
-                            <option value="">Within 15 Miles</option>
+                            <option value="">Within 5 Miles</option>
                         </select>
                     </div>
                     <div class="form-group col-sm-1 search-label-center">

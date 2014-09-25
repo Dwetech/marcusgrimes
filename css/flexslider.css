@@ -96,11 +96,11 @@ html[xmlns] .slides {display: block;}
 }
 
 @media screen and (max-width: 767px) {
-    .flexslider .slides img{
-        width: auto;
-        height: 100%;
+    .banner .flexslider .slides img{
+        width: auto!important;
+        height: 100%!important;
     }
-    .flex-direction-nav{
-        display: none;
+    .banner .flex-direction-nav{
+        display: none!important;
     }
 }

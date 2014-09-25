@@ -3,22 +3,12 @@
     <div class="container">
         <div class="container-fluid">
 
-            <form role="form" class="form-inline filter-mobile">
-                <div class="form-group">
-                    <select class="form-control" id="distance">
-                        <option value="5">Filter</option>
-                        <option value="5">Filter</option>
-                        <option value="5">Filter</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <select class="form-control" id="bed">
-                        <option value="5">Sort By</option>
-                        <option value="5">Sort By</option>
-                        <option value="5">Sort By</option>
-                    </select>
-                </div>
-            </form>
+            <div class="link-buttons">
+                <button class="btn btn-default result-block filter-trigger">Filter</button>
+                <button class="btn btn-default result-block sort-trigger">Sort By</button>
+            </div>
+
+
 
 
             <form role="form" class="form-inline filter-large">

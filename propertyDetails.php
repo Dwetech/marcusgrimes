@@ -34,9 +34,9 @@
                             </div>
                             <div class="details-content-section">
                                 <ul class="icon-absolute">
-                                    <li><img class="" src="img/bath.png" alt=""/> <span>x 3</span></li>
-                                    <li><img class="" src="img/bed.png" alt=""/> <span>x 5</span></li>
-                                    <li><img class="" src="img/living.png" alt=""/> <span>x 3</span></li>
+                                    <li class="popover-bath" data-toggle="popover" data-content="Lorem Ipsum"><img class="" src="img/bath.png" alt=""/> <span>x 3</span></li>
+                                    <li class="popover-bed" data-toggle="popover" data-content="Lorem Ipsum"><img class="" src="img/bed.png" alt=""/> <span>x 5</span></li>
+                                    <li class="popover-living" data-toggle="popover" data-content="Lorem Ipsum"><img class="" src="img/living.png" alt=""/> <span>x 3</span></li>
                                 </ul>
                             </div>
                         </div>

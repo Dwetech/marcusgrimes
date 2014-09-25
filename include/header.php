@@ -18,11 +18,11 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav mainMenu">
-                        <li><a href="#">Home </a></li>
-                        <li><a href="#">Search </a></li>
-                        <li><a href="#">Selling </a></li>
+                        <li><a href="<?php echo base_url; ?>">Home </a></li>
+                        <li><a href="<?php echo base_url; ?>propertyResults.php">Search </a></li>
+                        <li><a href="">Selling </a></li>
                         <li><a href="#">Lettings </a></li>
-                        <li><a href="#">About us </a></li>
+                        <li><a href="<?php echo base_url; ?>aboutus.php">About us </a></li>
                         <li><a href="#">Contact us </a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->

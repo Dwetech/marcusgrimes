@@ -8,12 +8,20 @@
 </head>
 <body>
 
-<?php include('include/top-header.php'); ?>
-<?php include('include/header.php'); ?>
-<?php include('include/search-options.php'); ?>
-<?php include('include/search-results.php'); ?>
-<?php include('include/results.php'); ?>
-<?php include('include/footer.php'); ?>
+<?php
+
+include('include/top-header.php');
+include('include/header.php');
+include('include/search-options.php');
+include('include/search-results.php');
+include('include/results.php');
+include('include/footer.php');
+
+include('include/request-modal.php');
+
+?>
+
+
 
 
 </body>

@@ -12,6 +12,7 @@
                         <option value="5">Price Lowest</option>
                     </select>
                 </div>
+            </form>
         </div>
     </div>
 </div>

@@ -11,10 +11,17 @@
                         <label>Search for my new home</label>
                     </div>
                     <div class="form-group col-sm-2">
-                            <input class="form-control" type="text" placeholder="For Sell">
+                        <select class="form-control" name="" id="">
+                            <option value="">For Sell</option>
+                            <option value="">For Buy</option>
+                        </select>
                     </div>
                     <div class="form-group col-sm-2">
-                            <input class="form-control" type="text" placeholder="Within 5 Miles">
+                        <select class="form-control" name="" id="">
+                            <option value="">Within 5 Miles</option>
+                            <option value="">Within 10 Miles</option>
+                            <option value="">Within 15 Miles</option>
+                        </select>
                     </div>
                     <div class="form-group col-sm-1 search-label-center">
                         <label>of</label>

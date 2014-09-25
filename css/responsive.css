@@ -148,6 +148,10 @@
     .search-form .form-group label{
         font-size: 16px;
     }
+    .search-form .form-group .form-control {
+        margin: 10px 0;
+        width: 100%;
+    }
     .search-form .form-group button{
         width: 100%;
         margin-top: 10px;
@@ -296,6 +300,9 @@
         margin-top: -6px;
     }
     /*==============================*/
+    /* Banner Style Sheet*/
+    /*==============================*/
+    /*==============================*/
     /* Search Results Style Sheet*/
     /*==============================*/
     .result-block {
@@ -322,6 +329,12 @@
         font-size: 12px;
     }
     #slider{
+        display: none;
+    }
+    /*==============================*/
+    /* Search Results Style Sheet*/
+    /*==============================*/
+    .mobile-out{
         display: none;
     }
 }

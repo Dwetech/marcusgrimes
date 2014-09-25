@@ -677,3 +677,6 @@ body{
 .input-theme{
     background: #e8e8e8;
 }
+.modal-dialog{
+    margin-top: 100px;
+}

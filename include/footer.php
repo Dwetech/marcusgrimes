@@ -17,7 +17,7 @@
                 </ul>
             </div>
             <div class="col-sm-4">
-                <ul class="footer-nav">
+                <ul class="footer-nav mobile-out">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Search for a property</a></li>
                     <li><a href="#">Selling your property</a></li>
@@ -28,7 +28,7 @@
                 </ul>
             </div>
             <div class="col-sm-4">
-                <ul class="footer-nav">
+                <ul class="footer-nav mobile-out">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Search for a property</a></li>
                     <li><a href="#">Selling your property</a></li>

@@ -10,13 +10,13 @@
 
 <?php include('include/top-header.php'); ?>
 <?php include('include/header.php'); ?>
-<?php include('include/search-options.php'); ?>
+<?php include('include/search-about.php'); ?>
 
 
 <div class="about">
     <div class="container">
         <div class="col-md-12">
-            <div class="col-sm-8 noPadding">
+            <div class="col-sm-8">
                 <div class="about-description">
                     <div class="column-blog-content">
                         <h2>A girl running on a road</h2>

@@ -10,13 +10,38 @@
 //});
 
 
+
 // filter toggle
 $('.filter-trigger').on('click', function () {
     $('.filter-large').stop().slideToggle();
+
+    var data = $(this).attr('data-content');
+
+    if(data == 'down'){
+        $(this).find('.icon-down').hide();
+        $(this).find('.icon-up').show();
+        $(this).attr('data-content','up');
+    } else {
+        $(this).find('.icon-down').show();
+        $(this).find('.icon-up').hide();
+        $(this).attr('data-content','down');
+    }
+
 });
 // Sort By toggle
 $('.sort-trigger').on('click', function () {
     $('.sort-by-large').stop().slideToggle();
+    var data = $(this).attr('data-content');
+
+    if(data == 'down'){
+        $(this).find('.icon-down').hide();
+        $(this).find('.icon-up').show();
+        $(this).attr('data-content','up');
+    } else {
+        $(this).find('.icon-down').show();
+        $(this).find('.icon-up').hide();
+        $(this).attr('data-content','down');
+    }
 });
 
 

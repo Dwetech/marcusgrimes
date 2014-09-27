@@ -333,15 +333,16 @@ body{
 
 .icon-absolute{
     margin: 0;
-    padding: 0;
+    padding: 25px 0 0 0;
     width: 100%;
     list-style: none;
 }
 .icon-absolute li{
     display: inline-block;
-    width: 90px;
+    width: 80px;
     height: 40px;
     position: relative;
+    text-align: center;
 }
 .icon-absolute li img{
     bottom: 0;
@@ -351,7 +352,7 @@ body{
 .icon-absolute li span{
     bottom: 0;
     position: absolute;
-    right: 15px;
+    right: 8px;
 }
 
 
@@ -514,8 +515,7 @@ body{
     padding-top: 50px;
 }
 .profile-content .team-profile img{
-    max-width: 100px;
-    border-radius: 50%;
+    max-width: 150px;
 }
 .profile-content .team-profile h2{
     font-family: "Open Sans";
@@ -697,4 +697,14 @@ body{
 }
 .input-theme{
     background: #e8e8e8;
+}
+.icon-down{
+    margin-left: 10px;
+}
+.icon-up{
+    display: none;
+    margin-left: 10px;
+}
+.show-mobile{
+    display: none;
 }

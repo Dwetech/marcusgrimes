@@ -4,8 +4,16 @@
         <div class="container-fluid">
 
             <div class="link-buttons">
-                <button class="btn btn-default result-block filter-trigger">Filter <i class="glyphicon"></i></button>
-                <button class="btn btn-default result-block sort-trigger">Sort By</button>
+                <button class="btn btn-default result-block filter-trigger" data-content="down">
+                    Filter
+                    <i class="icon-down glyphicon glyphicon-chevron-down"></i>
+                    <i class="icon-up glyphicon glyphicon-chevron-up"></i>
+                </button>
+                <button class="btn btn-default result-block sort-trigger" data-content="down">
+                    Sort By
+                    <i class="icon-down glyphicon glyphicon-chevron-down"></i>
+                    <i class="icon-up glyphicon glyphicon-chevron-up"></i>
+                </button>
             </div>
 
 

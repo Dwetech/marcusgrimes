@@ -1,5 +1,10 @@
 @media (max-width: 1200px) {
-
+    .icon-absolute{
+        margin: 0;
+        padding: 8px 0 0 0;
+        width: 100%;
+        list-style: none;
+    }
     .result-content{
         width: 100%;
         display: inline-block;
@@ -379,14 +384,17 @@
     /*==============================*/
     /* Banner Style Sheet*/
     /*==============================*/
+    .flex-direction-nav{
+        display: none;
+    }
     /*==============================*/
     /* Search Results Style Sheet*/
     /*==============================*/
     .results .container {
-        padding: 0;
+        /*padding: 0;*/
     }
 
-    .results .container-fluid {
+    .container-fluid {
         padding: 0;
     }
 
@@ -416,5 +424,11 @@
     /*==============================*/
     .mobile-out {
         display: none;
+    }
+    .hide-mobile{
+        display: none;
+    }
+    .show-mobile{
+        display: inline-block;
     }
 }

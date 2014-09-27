@@ -14,27 +14,53 @@
 
 
 <div class="about">
-    <div class="container">
-        <div class="col-md-12">
+    <div class="container noPadding">
             <div class="col-sm-8">
                 <div class="about-description">
                     <div class="column-blog-content">
                         <h2>A girl running on a road</h2>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+
+                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo,
+                            tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem
+                            malesuada magna mollis euismod. Donec sed odio dui. </p>
+
+                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo,
+                            tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem
+                            malesuada magna mollis euismod. Donec sed odio dui. </p>
+
+                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo,
+                            tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem
+                            malesuada magna mollis euismod. Donec sed odio dui. </p>
                     </div>
                     <div class="column-blog-content">
                         <h2>A girl running on a road</h2>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+
+                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo,
+                            tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem
+                            malesuada magna mollis euismod. Donec sed odio dui. </p>
+
+                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo,
+                            tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem
+                            malesuada magna mollis euismod. Donec sed odio dui. </p>
+
+                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo,
+                            tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem
+                            malesuada magna mollis euismod. Donec sed odio dui. </p>
                     </div>
                     <div class="column-blog-content">
                         <h2>A girl running on a road</h2>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+
+                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo,
+                            tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem
+                            malesuada magna mollis euismod. Donec sed odio dui. </p>
+
+                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo,
+                            tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem
+                            malesuada magna mollis euismod. Donec sed odio dui. </p>
+
+                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo,
+                            tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem
+                            malesuada magna mollis euismod. Donec sed odio dui. </p>
                     </div>
                 </div>
             </div>
@@ -47,12 +73,14 @@
                 </div>
                 <div class="column-sidebar-content normal-padding">
                     <h4><b>And Another heading here</b></h4>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, </p>
+
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                        mauris condimentum nibh, </p>
                     <a href="#"><b>Read More</b></a>
                 </div>
             </div>
-        </div>
-        <div class="col-md-12">
+    </div>
+    <div class="container noPadding">
             <div class="profile-content">
                 <p class="icon-black"><i class="glyphicon glyphicon-user"></i></p>
             </div>
@@ -61,32 +89,41 @@
             </div>
             <div class="profile-content">
                 <div class="team-profile">
-                    <img src="img/team.jpg" alt=""/>
+                    <img src="img/andrew.png" alt=""/>
+
                     <h3><b>Andrew</b></h3>
-                    <p>Web Designer</p>
+
+                    <p>web designer</p>
                 </div>
                 <div class="team-profile">
-                    <img src="img/team.jpg" alt=""/>
+                    <img src="img/stephen.png" alt=""/>
+
                     <h3><b>Andrew</b></h3>
-                    <p>Web Designer</p>
+
+                    <p>web developer</p>
                 </div>
                 <div class="team-profile">
-                    <img src="img/team.jpg" alt=""/>
-                    <h3><b>Andrew</b></h3>
-                    <p>Web Designer</p>
+                    <img src="img/maria.png" alt=""/>
+
+                    <h3><b>Maria</b></h3>
+
+                    <p>graphic designer</p>
                 </div>
                 <div class="team-profile">
-                    <img src="img/team.jpg" alt=""/>
-                    <h3><b>Andrew</b></h3>
-                    <p>Web Designer</p>
+                    <img src="img/john.png" alt=""/>
+
+                    <h3><b>John</b></h3>
+
+                    <p>project manager</p>
                 </div>
                 <div class="team-profile">
-                    <img src="img/team.jpg" alt=""/>
-                    <h3><b>Andrew</b></h3>
-                    <p>Web Designer</p>
+                    <img src="img/stephen.png" alt=""/>
+
+                    <h3><b>Ashton</b></h3>
+
+                    <p>real owner</p>
                 </div>
             </div>
-        </div>
     </div>
 </div>
 <div class="contact">
@@ -104,42 +141,48 @@
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <div class="col-sm-12">
-                                    <input type="text" class="form-control input-lg input-theme" placeholder="Your Name">
+                                    <input type="text" class="form-control input-lg input-theme"
+                                           placeholder="Your Name">
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <div class="col-sm-12">
-                                    <input type="email" class="form-control input-lg input-theme" placeholder="Your Email">
+                                    <input type="email" class="form-control input-lg input-theme"
+                                           placeholder="Your Email">
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <div class="col-sm-12">
-                                    <input type="text" class="form-control input-lg input-theme" placeholder="Telephone Number">
+                                    <input type="text" class="form-control input-lg input-theme"
+                                           placeholder="Telephone Number">
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <div class="col-sm-12">
-                                    <input type="text" class="form-control input-lg input-theme" placeholder="Location You are interested in">
+                                    <input type="text" class="form-control input-lg input-theme"
+                                           placeholder="Location You are interested in">
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-12">
                             <div class="form-group">
                                 <div class="col-sm-12">
-                                    <textarea rows="10" class="form-control input-lg input-theme" placeholder="Brief description of what you are looking for"></textarea>
+                                    <textarea rows="10" class="form-control input-lg input-theme"
+                                              placeholder="Brief description of what you are looking for"></textarea>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-12">
                             <div class="form-group">
                                 <div class="col-sm-4 col-sm-offset-4">
-                                    <button type="submit" class="btn btn-block btn-green-light btn-lg">Send Message</button>
+                                    <button type="submit" class="btn btn-block btn-green-light btn-lg">Send Message
+                                    </button>
                                 </div>
                             </div>
                         </div>

@@ -4,8 +4,8 @@
         <div class="container-fluid">
 
             <div class="link-buttons">
-                <button class="btn btn-default result-block filter-trigger">
-                    Search 
+                <button class="btn btn-default result-block filter-trigger" data-content="down">
+                    Search
                     <i class="icon-down glyphicon glyphicon-chevron-down"></i>
                     <i class="icon-up glyphicon glyphicon-chevron-up"></i>
                 </button>

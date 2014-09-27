@@ -45,18 +45,9 @@ $('.sort-trigger').on('click', function () {
 });
 
 
-$('.popover-bath').popover({
+$('.popup').popover({
         'placement': 'top',
         'trigger': 'hover '
     }
 );
-$('.popover-bed').popover({
-        'placement': 'top',
-        'trigger': 'hover '
-    }
-);
-$('.popover-living').popover({
-        'placement': 'top',
-        'trigger': 'hover '
-    }
-);
+

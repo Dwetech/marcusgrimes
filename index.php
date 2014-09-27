@@ -25,10 +25,11 @@
     // Can also be used with $(document).ready()
     $(window).load(function() {
         $('.flexslider').flexslider({
-            animation: "slide",
+            animation: "fade",
             controlNav: false,
             slideshow : true,
-            animationLoop: true
+            animationLoop: true,
+            slideshowSpeed: 5000
         });
     });
 </script>

@@ -35,12 +35,12 @@
                                 </p>
 
                                 <ul class="icon-absolute">
-                                    <li class="popover-bath" data-toggle="popover" data-content="Lorem Ipsum"><img
-                                            class="" src="img/bath.png" alt=""/> <span>x 3</span></li>
-                                    <li class="popover-bed" data-toggle="popover" data-content="Lorem Ipsum"><img
-                                            class="" src="img/bed.png" alt=""/> <span>x 5</span></li>
-                                    <li class="popover-living" data-toggle="popover" data-content="Lorem Ipsum"><img
-                                            class="" src="img/living.png" alt=""/> <span>x 3</span></li>
+                                    <li class="popover-bath popup" data-toggle="popover" data-content="Lorem Ipsum" ><img
+                                            src="img/bath.png" alt=""/> <span>x 3</span></li>
+                                    <li class="popover-bed popup" data-toggle="popover" data-content="Lorem Ipsum" ><img
+                                            src="img/bed.png" alt=""/> <span>x 5</span></li>
+                                    <li class="popover-living popup" data-toggle="popover" data-content="Lorem Ipsum" ><img
+                                            src="img/living.png" alt=""/> <span>x 3</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -67,7 +67,10 @@
         <div class="container-fluid">
             <div class="result-content">
                 <div class="col-sm-4">
-                    <img class="imgAuto" src="<?php echo base_url; ?>img/result.jpg" alt=""/>
+                    <div class="property-image">
+                        <img class="imgAuto" src="<?php echo base_url; ?>img/result.jpg" alt=""/>
+                        <img class="sale-absolute" src="img/sale.png" alt=""/>
+                    </div>
                 </div>
                 <div class="col-sm-8">
                     <div class="result-section">
@@ -96,15 +99,19 @@
                                 </p>
 
                                 <ul class="icon-absolute">
-                                    <li><img class="" src="img/bath.png" alt=""/> <span>x 3</span></li>
-                                    <li><img class="" src="img/bed.png" alt=""/> <span>x 5</span></li>
-                                    <li><img class="" src="img/living.png" alt=""/> <span>x 3</span></li>
+                                    <li class="popover-bath popup" data-toggle="popover" data-content="Lorem Ipsum" ><img
+                                            src="img/bath.png" alt=""/> <span>x 3</span></li>
+                                    <li class="popover-bed popup" data-toggle="popover" data-content="Lorem Ipsum" ><img
+                                            src="img/bed.png" alt=""/> <span>x 5</span></li>
+                                    <li class="popover-living popup" data-toggle="popover" data-content="Lorem Ipsum" ><img
+                                            src="img/living.png" alt=""/> <span>x 3</span></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-md-4 noPadding">
                             <div class="link-buttons">
-                                <a href="#" class="btn btn-green-light result-block">View Property</a>
+                                <a href="<?php echo base_url; ?>propertyDetails.php"
+                                   class="btn btn-green-light result-block">View Property</a>
                                 <a data-toggle="modal" data-target="#my-request-view" class="btn btn-normal result-block">Request
                                     Viewing</a>
                             </div>

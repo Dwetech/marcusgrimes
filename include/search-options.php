@@ -20,7 +20,7 @@
 
 
             <form role="form" class="form-inline filter-large">
-                <div class="form-group">
+                <div class="form-group form-field-location">
                     <label for="location">Location</label>
                     <input type="text" class="form-control" id="location" placeholder="Haywards Heath">
                 </div>
@@ -72,7 +72,7 @@
                         <option value="5">20</option>
                     </select>
                 </div>
-                <div class="form-group">
+                <div class="form-group form-search-button">
                     <button type="submit" class="btn btn-green-light btn-block">Search</button>
                 </div>
             </form>

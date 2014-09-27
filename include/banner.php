@@ -37,11 +37,9 @@
                             <option value="">Within 5 Miles</option>
                         </select>
                     </div>
-                    <div class="form-group col-sm-1 search-label-center">
-                        <label>of</label>
-                    </div>
-                    <div class="form-group col-sm-2">
-                        <input class="form-control" type="text" placeholder="Location or Postcode">
+                    <div class="form-group col-sm-3">
+                        <label class="of search-label-center">of</label>
+                        <input class="form-control location-input" type="text" placeholder="Location or Postcode">
                     </div>
                     <div class="form-group col-sm-2">
                         <button type="submit" class="btn btn-green-light">Search</button>

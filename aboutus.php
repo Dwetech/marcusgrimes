@@ -14,11 +14,12 @@
 
 
 <div class="about">
-    <div class="container noPadding">
+    <div class="container">
+        <div class="row">
             <div class="col-sm-8">
                 <div class="about-description">
                     <div class="column-blog-content">
-                        <h2>A girl running on a road</h2>
+                        <h1>A girl running on a road</h1>
 
                         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo,
                             tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem
@@ -33,7 +34,7 @@
                             malesuada magna mollis euismod. Donec sed odio dui. </p>
                     </div>
                     <div class="column-blog-content">
-                        <h2>A girl running on a road</h2>
+                        <h1>A girl running on a road</h1>
 
                         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo,
                             tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem
@@ -48,7 +49,7 @@
                             malesuada magna mollis euismod. Donec sed odio dui. </p>
                     </div>
                     <div class="column-blog-content">
-                        <h2>A girl running on a road</h2>
+                        <h1>A girl running on a road</h1>
 
                         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo,
                             tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem
@@ -79,13 +80,14 @@
                     <a href="#"><b>Read More</b></a>
                 </div>
             </div>
+        </div>
     </div>
     <div class="container noPadding">
             <div class="profile-content">
                 <p class="icon-black"><i class="glyphicon glyphicon-user"></i></p>
             </div>
             <div class="profile-content">
-                <h1><b>Meet The Team</b></h1>
+                <h2><b>Meet The Team</b></h2>
             </div>
             <div class="profile-content">
                 <div class="team-profile">

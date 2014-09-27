@@ -1,7 +1,6 @@
 
 <div class="search-options">
     <div class="container">
-        <div class="container-fluid">
 
             <div class="link-buttons">
                 <button class="btn btn-default result-block filter-trigger" data-content="down">
@@ -13,9 +12,8 @@
 
 
 
-
             <form role="form" class="form-inline filter-large">
-                <div class="form-group">
+                <div class="form-group form-field-location">
                     <label for="location">Location</label>
                     <input type="text" class="form-control" id="location" placeholder="Haywards Heath">
                 </div>
@@ -36,7 +34,7 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="bath">Min bathroms</label>
+                    <label for="bath">Min bath rms</label>
                     <select class="form-control" id="bath">
                         <option value="5">1</option>
                         <option value="5">2</option>
@@ -67,10 +65,10 @@
                         <option value="5">20</option>
                     </select>
                 </div>
-                <div class="form-group">
+                <div class="form-group form-search-button">
                     <button type="submit" class="btn btn-green-light btn-block">Search</button>
                 </div>
             </form>
-        </div>
+
     </div>
 </div>

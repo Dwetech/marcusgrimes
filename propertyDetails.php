@@ -13,7 +13,6 @@
 
 <div class="result-details">
     <div class="container">
-        <div class="container-fluid">
             <div class="result-details-content">
                 <div class="col-md-4 noPadding">
                     <div class="side-bar">
@@ -46,15 +45,18 @@
                             </div>
                         </div>
                         <div class="col-md-12 text-center">
-                            <a class="btn btn-default btn-lg btn-block modal-trigger-margin" data-toggle="modal" data-target="#my-map"><i
+                            <a class="btn btn-default btn-lg btn-block modal-trigger-margin" data-toggle="modal" data-target="#my-floor"><i
                                     class="glyphicon glyphicon-th-large pull-left"></i> View floor plan</a>
                             <a class="btn btn-default btn-lg btn-block modal-trigger-margin"  data-toggle="modal" data-target="#my-rating"><i
                                     class="glyphicon glyphicon-align-left pull-left"></i> View EPC Document</a>
-                            <a class="btn btn-default btn-lg btn-block modal-trigger-margin" href="#"><i
+                            <a class="btn btn-default btn-lg btn-block modal-trigger-margin" data-toggle="modal" data-target="#my-map"><i
                                     class="glyphicon glyphicon-map-marker pull-left"></i> View on map</a>
                             <a class="btn btn-default btn-lg btn-block modal-trigger-margin" href="#"><i
                                     class="glyphicon glyphicon-home pull-left"></i> View schools and area info</a>
-                            <a class="btn btn-normal btn-lg modal-trigger-margin" data-toggle="modal" data-target="#my-request-view">Request Viewing</a>
+                            <a class="btn btn-default btn-lg btn-block modal-trigger-margin" href="#"><i
+                                    class="glyphicon glyphicon-print pull-left"></i> Print</a>
+                            <a class="btn btn-normal btn-lg modal-trigger-margin" data-toggle="modal" data-target="#my-request-view">Request Viewing</a><br/>
+                            <a class="btn btn-normal btn-lg modal-trigger-margin">Add to favourites</a>
                         </div>
                     </div>
                 </div>
@@ -148,7 +150,6 @@
                     </div>
                 </div>
             </div>
-        </div>
     </div>
 </div>
 
@@ -159,7 +160,7 @@
 <?php include('include/request-modal.php'); ?>
 
 
-<div class="modal fade" id="my-map" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="my-floor" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
                 <button type="button" class="close modal-dismis" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -175,6 +176,18 @@
                 <button type="button" class="close modal-dismis" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             <div class="modal-body text-center">
                 <img class="imgAuto" src="img/rating.jpg" alt=""/>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="my-map" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close modal-dismis" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <div class="modal-body text-center">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.1769117936906!2d-74.00518579574023!3d40.71412181919358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x660aeef42acf9b9b!2sNew+York+City+Supreme+Court!5e0!3m2!1sen!2s!4v1411850450279" frameborder="0" style="border:0"></iframe>
+                </div>
             </div>
         </div>
     </div>

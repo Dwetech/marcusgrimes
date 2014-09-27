@@ -247,7 +247,7 @@ body{
     float: left;
 }
 .search-options .filter-large .form-group{
-    margin: 0 1%;
+    margin: 0 2% 0 0;
     width: 10%;
     float: left;
 }
@@ -478,6 +478,9 @@ body{
     display: inline-block;
     margin: 15px 0;
 }
+.slide-show #carousel {
+    margin-top: 15px;
+}
 .slide-show #carousel .slides li{
     opacity: 0.7;
 }
@@ -528,7 +531,7 @@ body{
     font-size: 30px;
     padding: 18px;
 }
-.profile-content h1{
+.profile-content h1, .profile-content h2{
     margin: 0;
     padding: 0;
     font-family: "Open Sans";

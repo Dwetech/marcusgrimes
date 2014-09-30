@@ -53,6 +53,7 @@
                                     <a data-toggle="modal" data-target="#my-request-view" class="btn btn-normal result-block">Request
                                         Viewing</a>
                                 </div>
+                                <a  class="btn fav-block" href="#"><i class="glyphicon glyphicon-plus"></i> Add to favourite</a>
                             </div>
                         </div>
                     </div>
@@ -69,6 +70,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
+
                 <div class="result-content">
                     <div class="col-sm-4">
                         <div class="property-image">
@@ -118,6 +120,7 @@
                                        class="btn btn-green-light result-block">View Property</a>
                                     <a data-toggle="modal" data-target="#my-request-view" class="btn btn-normal result-block">Request
                                         Viewing</a>
+                                    <a  class="btn fav-block" href="#"><i class="glyphicon glyphicon-plus"></i> Add to favourite</a>
                                 </div>
                             </div>
                         </div>
@@ -127,12 +130,10 @@
                     <div class="col-sm-4"><h4 class="contact-number">Haywards Heath Office: 01444 451818</h4></div>
                     <div class="col-sm-8"><h4 class="email">email: sales@haywardsheathmarcusgrimes</h4></div>
                 </div>
-
             </div>
         </div>
     </div>
 </div>
-
 
 <div class="results text-center">
     <a class="btn btn-default btn-lg" href=#>Load next 10 properties</a>

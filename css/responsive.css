@@ -100,7 +100,14 @@
         text-align: center;
         width: auto;
     }
-
+    .fav-block{
+        border-radius: 0;
+        float: left;
+        margin: 5px 0 0 0;
+        padding: 12px 0 0 0;
+        text-align: center;
+        width: auto;
+    }
     .result-contact h4 {
         font-size: 11px;
     }
@@ -292,7 +299,18 @@
     .result-section {
         margin-bottom: 0;
     }
-
+    .link-buttons{
+        width: auto;
+    }
+    .fav-block {
+        border-radius: 0;
+        display: table;
+        float: none;
+        margin: 5px auto;
+        padding: 12px 0;
+        text-align: center;
+        width: auto;
+    }
     .result-section h3 {
         display: inline-block;
         margin: 0;
@@ -323,6 +341,9 @@
         float: none;
     }
 
+    .result-contact {
+        margin: 0;
+    }
     .result-contact h4 {
         font-size: 22px;
     }

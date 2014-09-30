@@ -322,10 +322,10 @@ body{
 }
 .result-section:first-child{
     border-bottom: 1px solid #e6e6e6;
+    padding: 0 0 10px;
 }
 .result-section{
     display: inline-block;
-    padding: 0 0 10px;
     width: 100%;
 }
 .result-section h3{
@@ -350,7 +350,10 @@ body{
     padding: 0;
 }
 
-
+.link-buttons{
+    width: 100%;
+    display: inline-block;
+}
 
 .icon-absolute{
     margin: 0;
@@ -413,6 +416,14 @@ body{
     float: right;
     margin: 5px;
     padding: 12px 20px;
+    text-align: center;
+    width: 75%;
+}
+.fav-block{
+    border-radius: 0;
+    float: right;
+    margin: 5px 0 0 0;
+    padding: 12px 0 0 0;
     text-align: center;
     width: 75%;
 }

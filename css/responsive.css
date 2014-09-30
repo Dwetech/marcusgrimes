@@ -14,6 +14,14 @@
     .search-form .form-group .location-input {
        width: 77.55%
     }
+    .fav-block {
+        border-radius: 0;
+        float: right;
+        margin: 5px;
+        padding: 0 0 12px;
+        text-align: center;
+        width: 75%;
+    }
 }
 
 @media (max-width: 992px) {
@@ -89,7 +97,8 @@
     /*==============================*/
     .link-buttons {
         display: block;
-        float: right;
+        float: left;
+        width: auto;
     }
 
     .result-block {

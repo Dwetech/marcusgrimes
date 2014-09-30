@@ -34,7 +34,7 @@
                             malesuada magna mollis euismod. Donec sed odio dui. </p>
                     </div>
                     <div class="column-blog-content">
-                        <h1>A girl running on a road</h1>
+                        <h2>A girl running on a road</h2>
 
                         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo,
                             tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem
@@ -49,7 +49,7 @@
                             malesuada magna mollis euismod. Donec sed odio dui. </p>
                     </div>
                     <div class="column-blog-content">
-                        <h1>A girl running on a road</h1>
+                        <h2>A girl running on a road</h2>
 
                         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo,
                             tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem

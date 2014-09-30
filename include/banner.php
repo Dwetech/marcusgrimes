@@ -1,19 +1,35 @@
 
 <div class="banner">
 <!--    <img src="--><?php //echo base_url; ?><!--img/banner.jpg" alt="Marcus Griles"/>-->
-    <div class="flexslider">
+    <div class="flexslider show-desktop">
         <ul class="slides">
             <li>
                 <img src="img/banner.jpg" />
             </li>
             <li>
-                <img src="img/banner.jpg" />
+                <img src="img/banner-bw.jpg" />
             </li>
             <li>
                 <img src="img/banner.jpg" />
             </li>
             <li>
-                <img src="img/banner.jpg" />
+                <img src="img/banner-bw.jpg" />
+            </li>
+        </ul>
+    </div>
+    <div class="flexslider show-mobile">
+        <ul class="slides">
+            <li>
+                <img src="img/mobile-slide.jpg" />
+            </li>
+            <li>
+                <img src="img/mobile-slide-bw.jpg" />
+            </li>
+            <li>
+                <img src="img/mobile-slide.jpg" />
+            </li>
+            <li>
+                <img src="img/mobile-slide-bw.jpg" />
             </li>
         </ul>
     </div>

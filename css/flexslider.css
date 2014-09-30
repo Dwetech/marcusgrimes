@@ -96,6 +96,15 @@ html[xmlns] .slides {display: block;}
 }
 
 @media screen and (max-width: 767px) {
+    .banner .flexslider{
+        height: 100%!important;
+    }
+    .banner .flexslider .slides{
+        height: 100%!important;
+    }
+    .banner .flexslider .slides li{
+        height: 100%!important;
+    }
     .banner .flexslider .slides img{
         width: auto!important;
         height: 100%!important;
